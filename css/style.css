@@ -1,0 +1,34 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container-fluid {
+    font-family: 'Varela Round';
+    color: lightgrey;
+    height: 100%;
+    background-color: #363B45;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+}
+#temp {    
+    font-weight: bolder;    
+    cursor: pointer;
+    font-size: 2em;
+    margin: 5px;
+}
+
+#icon {    
+    margin: 5px;
+    color: lightgrey;
+    font-size: 4em;   
+}
+
+#map {
+    width: 500px;
+    height: 300px;
+    background-color: grey;
+}
